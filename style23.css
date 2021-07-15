@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: sans-serif;
+  text-align: center;
+}
+.box1 {
+  margin: 20px;
+  padding: 20px;
+  min-width: 100vh;
+  position: relative;
+  background: white;
+  align-items: center;
+  justify-items: center;
+  display: grid;
+  float: center;
+  overflow: hidden;
+}
+
+.social-media {
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  position: relative;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  position: relative;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.navbar {
+  overflow: hidden;
+  display: inline-flex;
+  font-family: Times New Roman;
+}
+
+.navbar a {
+  float: left;
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+  padding: 38px;
+  text-decoration: none;
+  border-radius: 2%;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-family: Times New Roman;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  font-size: 1.2rem;
+  margin: 0;
+  border-radius: 2%;
+  background-color: transparent;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: lightgrey;
+  color: brown;
+  border-radius: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.main {
+  position: relative;
+  right: 10px;
+  margin: 40px;
+  border-radius: 1px black;
+  padding: 10px 20px;
+}
+.img {
+  width: 20%;
+  height: 120%;
+}
+.row {
+  display: flex;
+}
+.right {
+  width: 100%;
+  position: relative;
+  flex: 70%;
+  padding: 20px;
+}
+.right p {
+  color: black;
+  margin: 4px;
+  padding: 10px;
+  font-family: Georgia;
+  font-size: 1rem;
+}
+.right p:hover {
+  color: brown;
+  font-family: Georgia;
+}
+.right h2 {
+  padding: 4px;
+  margin: 10px;
+  font-size: 4rem;
+}
+.left {
+  flex: 30%;
+  padding: 12px;
+  margin: 40px;
+}
+.left h2 {
+  padding: 10px;
+  margin: 20px;
+  font-size: 2rem;
+}
+.left div.components {
+  background-color: rgb(236, 236, 223);
+  margin: 40px;
+  padding: 20px 40px;
+  min-width: 100%;
+  height: 1100px;
+  border-radius: 50px;
+  color: brown;
+}
+
+div.components:hover {
+  color: brown;
+  background-color: rgb(245, 233, 200);
+}
+.components p {
+  font-family: Georgia;
+  font-size: 1.2rem;
+  margin: 30px;
+}
+
+.mix p {
+  font-family: Georgia;
+  font-size: 1rem;
+  margin: 10px;
+}
+table {
+  width: 60px;
+  margin: 20px 20px;
+  padding: 19px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-radius: 20px;
+  margin: 20px 20px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+tr:hover {
+  background-color: rgb(236, 236, 223);
+  color: brown;
+  border-radius: 50px;
+}

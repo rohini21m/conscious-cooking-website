@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content ="width=device-width,initial-scale=1">
+        
+        <link rel="stylesheet" type = "text/css" href = "style16.css">
+        <title>Conscious cooking</title>
+</head>
+<body>
+    <div class="box1">
+    <h1><b>CONSCIOUS COOKING</b></h1>
+      </div>
+      <div class="navbar">
+        <a href = " file:///C:/Users/Rohinimunnangi/Desktop/HTML%20AND%20CSS/conscious.html?" > Home </a>
+         <div class="dropdown">
+                <button class="dropbtn">Recipies 
+                 <i class="fa fa-caret-down"></i>
+                 </button>
+                 <div class="dropdown-content">
+                        <a href="file:///C:/Users/Rohinimunnangi/Desktop/HTML%20AND%20CSS/pancake.html">Breakfasts</a>
+                         <a href="file:///C:/Users/Rohinimunnangi/Desktop/HTML%20AND%20CSS/conscious%20recipes.html">curries</a>
+                         <a href="file:///C:/Users/Rohinimunnangi/Desktop/HTML%20AND%20CSS/salad.html">Salads</a>
+                         <a href="file:///C:/Users/Rohinimunnangi/Desktop/HTML%20AND%20CSS/drinks.html">Drinks</a>
+                         <a href="file:///C:/Users/Rohinimunnangi/Desktop/HTML%20AND%20CSS/smmothies.html">Smoothies</a>
+                             <a href="file:///C:/Users/Rohinimunnangi/Desktop/HTML%20AND%20CSS/pizza.html">FastFoods</a>
+                           
+                  </div>
+                 
+         </div>
+             <a href = "file:///C:/Users/Rohinimunnangi/Desktop/HTML%20AND%20CSS/conscious%20sign-in.html">Sign-In</a>
+     </div> 
+
+
+
+
+ </div>
+   <div class="row">
+       <div class= "left" >
+        </div>
+    <div class="main">
+        <img src="C:\Users\Rohinimunnangi\Desktop\apex concepts\bagel.jpg">
+
+    </div>
+    <div class="right">
+        <h2>Sign up</h2>
+        <p>Stay current with everything in our website and receive exclusive content, starting with this Jumpstart Guide. This PDF resource includes extensive grocery shopping lists, cooking conversion charts, and more to kick off your plant-based journey.</p>
+       
+         <form id='form' action="" method ="POST"> 
+            
+            <label for="name">Name</label>
+             <input type="text" id="name" name="name" required >
+            <label for="email">Email Address</label>
+            <input type="text" id="Email" name="email" required>
+            
+                <p> You agree to our <a href ="#">Terms & Conditions</a> </p>
+              
+            <button type="text" class="btn">Subscribe</button>
+           
+            <div class="social-media">
+                     <a href="https://www.facebook.com/" class="social-icon">
+                       <i class='fab fa-facebook-f'></i>
+                    </a>
+                     <a href="https://twitter.com/?lang=en" class="social-icon">
+                       <i class='fab fa-twitter'></i>
+                    </a>
+                   <a href="https://www.linkedin.com/feed/" class="social-icon">
+                       <i class='fab fa-linkedin-in'></i>
+                    </a>
+                   <a href="https://www.google.com/" class="social-icon">
+                            <i class='fab fa-google'></i>
+                   </a>
+      
+            </div>
+                            
+                                
+         </form>
+        
+    </div>
+</div>
+<script>
+  const form = document.getElementById('form')
+  const name= document.getElementById('name')
+  const Email = document.getElementById('Email')
+ 
+  form.addEventListener('Subscribe', (e)=>{
+
+  e.preventDefault();
+
+
+     if(name ===""  && Email==="" ){
+      console.log('subscribed');
+     }
+    
+  });
+   
+
+</script>
+</body>
+</html>
